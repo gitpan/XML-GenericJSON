@@ -1,0 +1,19 @@
+--- #YAML:1.0
+name:               XML::GenericJSON
+version:            0.01
+abstract:           Turns XML into JSON
+author:
+    - Mark Howe <melonman@cpan.org>
+license:            bsd
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    XML::LibXML:	0
+    JSON:XS:	0
+resources:
+    repository:	     svn://xcruciate.co.uk/cpan
+no_index:
+    directory:
+        - t
+generated_by:       The old-fashioned keystrokes of Melonman
