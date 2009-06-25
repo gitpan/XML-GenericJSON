@@ -5,8 +5,8 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'XML::GenericJSON',
     VERSION_FROM      => 'lib/XML/GenericJSON.pm', # finds $VERSION
-    PREREQ_PM         => {XML::LibXml => 1.58,
-                          JSON::XS}, # e.g., Module::Name => 1.1
+    PREREQ_PM         => {XML::LibXML => 1.58,
+                          JSON::XS => 0}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/XML::GenericJSON.pm', # retrieve abstract from module
        AUTHOR         => 'Mark Howe <melonman@cpan.org>') : ()),

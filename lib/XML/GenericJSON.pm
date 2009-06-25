@@ -5,7 +5,7 @@ use Exporter;
 
 @ISA = ('Exporter');
 @EXPORT = qw();
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 use strict;
 use warnings;
@@ -230,6 +230,8 @@ sub list_children {
 =over
 
 B<0.01>: First upload
+
+B<0.02>: Get dependencies right
 
 =back
 
