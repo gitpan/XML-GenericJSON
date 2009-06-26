@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               XML::GenericJSON
-version:            0.02
+version:            0.03
 abstract:           Turns XML into JSON
 author:
     - Mark Howe <melonman@cpan.org>

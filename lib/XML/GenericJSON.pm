@@ -5,7 +5,7 @@ use Exporter;
 
 @ISA = ('Exporter');
 @EXPORT = qw();
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 use strict;
 use warnings;
@@ -232,6 +232,8 @@ sub list_children {
 B<0.01>: First upload
 
 B<0.02>: Get dependencies right
+
+B<0.03>: Get path to abstract right
 
 =back
 
