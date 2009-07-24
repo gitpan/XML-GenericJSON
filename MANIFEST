@@ -1,6 +1,12 @@
+Build.PL
 Changes
+lib/.DS_Store
+lib/XML/GenericJSON.pm
 Makefile.PL
 MANIFEST
+MANIFEST.skip
+META.yml
 README
-t/GenericJSON.t
-lib/XML/GenericJSON.pm
+t/00-load.t
+t/pod-coverage.t
+t/pod.t
