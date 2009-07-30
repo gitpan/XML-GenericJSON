@@ -3,7 +3,7 @@ use Exporter;
 
 @ISA = ('Exporter');
 @EXPORT = qw();
-our $VERSION = 0.04;
+our $VERSION = 0.05;
 
 use strict;
 use warnings;
@@ -232,6 +232,10 @@ B<0.01>: First upload
 B<0.02>: Get dependencies right
 
 B<0.03>: Get path to abstract right
+
+B<0.04>: ported to use Module::Build
+
+B<0.05>: fixed unit test
 
 =back
 

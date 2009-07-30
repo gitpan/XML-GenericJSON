@@ -1,12 +1,10 @@
 ---
 name: XML-GenericJSON
-version: 0.04
+version: 0.05
 author:
   - 'Mark Howe <melonman@cpan.org>'
 abstract: for turning XML into JSON, preserving as much XMLness as possible.
 license: bsd
-build_requires:
-  Test::More: 0
 requires:
   JSON::XS: 0
   XML::LibXML: 1.58
@@ -22,6 +20,6 @@ meta-spec:
 provides:
   XML::GenericJSON:
     file: lib/XML/GenericJSON.pm
-    version: 0.04
+    version: 0.05
 resources:
   license: http://opensource.org/licenses/bsd-license.php

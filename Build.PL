@@ -10,7 +10,7 @@ my $builder = Module::Build->new(
     dist_author       => 'Mark Howe <melonman@cpan.org>',
 	dist_abstract	  => 'for turning XML into JSON, preserving as much XMLness as possible.',
     dist_version_from => 'lib/XML/GenericJSON.pm',
-    build_requires    => { 'Test::More' => 0, },
+    Build_requires    => { 'Test::More' => 0, },
     requires          => {
         'XML::LibXML' => '1.58',
 	    'JSON::XS' => '0',
